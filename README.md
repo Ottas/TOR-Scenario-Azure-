@@ -8,6 +8,7 @@
 Detect and investigate potential TOR browser usage within the corporate environment. The project focuses on identifying behavior where users visit TOR-related websites, download and install the browser, execute it. It also includes tracking temporary files (.txt) created and later deleted as part of the installation or usage process.
 ### Skills Learned
 
+- Deployed a Virtual Machine in Microsoft Azure and onboarded it to Microsoft Defender for Endpoint
 - Threat Hunting & Detection – Identified TOR browser activity through file and process behavior.
 - Log Analysis (KQL) – Used Kusto Query Language to query device logs, file events, and process executions.
 - Ability to generate and recognize attack signatures and patterns.
