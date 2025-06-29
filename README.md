@@ -1,25 +1,26 @@
-# TOR-Scenario-Azure-
+<img width="400" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
+
+# Threat Hunting: Unauthorized TOR Usage
+
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
-
+Detect and investigate potential TOR browser usage within the corporate environment. The project focuses on identifying behavior where users visit TOR-related websites, download and install the browser, execute it. It also includes tracking temporary files (.txt) created and later deleted as part of the installation or usage process.
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
+- Threat Hunting & Detection – Identified TOR browser activity through file and process behavior.
+- Log Analysis (KQL) – Used Kusto Query Language to query device logs, file events, and process executions.
 - Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Endpoint Security – Monitored and analyzed Windows telemetry for suspicious actions.
+- Microsoft Sentinel – Leveraged Azure-native SIEM capabilities to query and visualize data.
+- Ability to generate and recognize attack signatures and patterns.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Windows 10 Virtual Machines (Microsoft Azure)
+- EDR Platform: Microsoft Defender for Endpoint
+- Kusto Query Language (KQL)
+- Tor Browser
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
