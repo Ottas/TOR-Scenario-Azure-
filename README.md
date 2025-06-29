@@ -26,7 +26,6 @@ Detect and investigate potential TOR browser usage within the corporate environm
 
 ### SCENARIO
 # Threat Event (Unauthorized TOR Usage)
-**Unauthorized TOR Browser Installation and Use**
 
 ## Steps the "Bad Actor" took Create Logs and IoCs:
 1. Download the TOR browser installer: https://www.torproject.org/download/
