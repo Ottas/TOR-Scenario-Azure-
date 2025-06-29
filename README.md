@@ -25,7 +25,7 @@ Detect and investigate potential TOR browser usage within the corporate environm
 ## Steps
 ### 1. Searched the `DeviceFileEvents` Table
 
-Searched for any file that had the string "tor" in it and discovered what looks like the user "labuser" downloaded a TOR installer, did something that resulted in many TOR-related files being copied to the desktop, and the creation of a file called `tor-shopping-list.txt` on the desktop at `2025-06-28T18:45:19.3405724Z`. These events began at `2`.
+Searched for any file that had the string "tor" in it and discovered what looks like the user "labuser" downloaded a TOR installer, did something that resulted in many TOR-related files being copied to the desktop, and the creation of a file called `tor-shopping-list.txt` on the desktop at `2025-06-28T18:45:19.3405724Z`. These events began at `2025-06-28T18:18:11.148502Z`.
 
 Query to locate events:
 ```kql
